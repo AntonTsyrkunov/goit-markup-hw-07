@@ -27,7 +27,7 @@ header {
 
     .link {
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 30px;    
     }
 
     &__link {
@@ -38,6 +38,10 @@ header {
         letter-spacing: 0.02em;
         padding-top: 30px;
         padding-bottom: 30px;
+
+        &:hover {
+            color: $main-theme-color;
+        }
     }
 
 }
@@ -79,6 +83,12 @@ header {
         fill: $subfont-color;
         padding-top: 30px;
         padding-bottom: 30px;
+
+        &:hover,
+        &:focus{
+            color: $main-theme-color;
+            fill: $main-theme-color;
+        }
     }
 
     
@@ -88,10 +98,8 @@ header {
     }
 }
 
-.active{
-    &:hover,
-    &:focus {
-        fill: $main-theme-color;
-        color: $main-theme-color;        
-     }
+.active {
+    fill: $main-theme-color;
+    color: $main-theme-color;        
 }
+

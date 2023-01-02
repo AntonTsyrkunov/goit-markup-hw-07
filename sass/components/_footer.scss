@@ -3,16 +3,25 @@
     display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
+
+    &__adress{
+        min-width: 230px;;
+    }
 }
 
 .info {
     display: flex;
     align-items: baseline;
-    
+
     &__adress{
-        padding-left: 0px;
+        padding-left: 0px;        
     }
 
+    &__item:not(:last-child) {
+        margin-bottom: 8px;
+    }
+    
+   
     &__item--style {
         margin-top: 20px;
         color: $main-body-color;
@@ -21,6 +30,11 @@
         font-size: 14px;
         line-height: 1.17em;
         letter-spacing: 0.03em;
+    }
+
+    &__link:hover {
+        color: $main-theme-color;
+        
     }
 }
 

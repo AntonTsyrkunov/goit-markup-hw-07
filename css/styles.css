@@ -431,6 +431,10 @@ header {
     padding-bottom: 60px;
 }
 
+.footer__adress{
+    min-width: 230px;
+}
+
 .info {
     display: flex;
     align-items: baseline;
@@ -447,7 +451,10 @@ header {
 
 .info__adress{
     padding-left: 0px;
-    gap: 8px;
+}
+
+.info__item{
+    margin-top: 8px;
 }
 
 .info__item--style {

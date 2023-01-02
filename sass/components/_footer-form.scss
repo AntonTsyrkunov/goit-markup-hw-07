@@ -9,13 +9,15 @@
     padding-right: 73px;
 }
 
-.footer-form__caption {
-    color: $main-body-color;
-    font-weight: $bold-weight;
-    font-size: 14px;
-    line-height: 1.14em;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.footer-form {
+    &__caption{
+        color: $main-body-color;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14em;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    }
 
     &__input {
         margin-top: 20px;
@@ -42,7 +44,7 @@
         border-radius: 4px;
         background-color: $main-theme-color;
         padding: 10px 28px;
-        font-weight: $bold-weight;
+        font-weight: 700;
         font-size: 16px;
         line-height: 1.88em;
         letter-spacing: 0.06em;
@@ -58,3 +60,4 @@
         fill: $main-body-color;
     }
 }
+
